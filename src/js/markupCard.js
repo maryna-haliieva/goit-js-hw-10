@@ -1,4 +1,4 @@
-export function createCardRef(country) {
+function createCardRef(country) {
   const lang = country.languages.map(language => language.name).join(', ');
   return `<div class="box">
   <img src="${country.flags.svg}" alt="${country.name}" width="110" class="card__img">
@@ -7,3 +7,4 @@ export function createCardRef(country) {
           <p><b>Population</b>: ${country.population}</p>
           <p><b>Languages</b>: ${lang}</p>`;
 }
+export { createCardRef };

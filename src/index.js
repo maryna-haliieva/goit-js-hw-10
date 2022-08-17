@@ -1,5 +1,5 @@
 import './sass/index.scss';
-import { fetchCountries } from './js/fetchCountries';
+import fetchCountries from './js/fetchCountries';
 import { createCardRef } from './js/markupCard';
 import { generateContentList } from './js/markupList';
 import debounce from 'lodash.debounce';

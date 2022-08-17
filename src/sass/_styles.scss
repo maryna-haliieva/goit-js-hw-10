@@ -13,7 +13,7 @@ body {
 }
 
 #search-box {
-  font: inherit;
+  font-style: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
@@ -22,5 +22,13 @@ body {
 html,
 body {
   height: 100%;
+}
 
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  margin-top: 24px;
+  margin-left: 24px;
 }
